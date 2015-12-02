@@ -1,0 +1,11 @@
+#!/bin/bash
+set -euo pipefail
+IFS=$'\n\t'
+
+while :
+do
+  zenity --question --text "Start a pomodoro?"
+  sleep 25m
+  zenity --info --text "Pomodoro complete! Take a break."
+  sleep 5m
+done
